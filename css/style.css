@@ -123,9 +123,9 @@ a{
     line-height: 50px;
 }
 
-.content{
+/* .content{
     margin-bottom: 30px;
-}
+} */
 
 .course{
     display: flex;
@@ -167,6 +167,10 @@ table{
 table tr{
     border-bottom: 2px solid #f7f7f7;
     border-top: 2px solid #f7f7f7;
+}
+
+table tr:hover{
+    background-color: #afe9db;
 }
 
 table th{
@@ -232,10 +236,15 @@ textarea{
 
 }
 .footer{
-    background-color: gray;
-    color: #fff;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    line-height: 25px;
+    padding: 20px;
+    font-weight: bold;
 }
 
+
+.colorPink{
+    color: pink;
+}
